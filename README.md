@@ -1,16 +1,60 @@
-# React + Vite
+# 🛍️ React E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, full-featured **e-commerce web application** built with **React (Vite)**, **Redux Toolkit**, **Supabase Authentication** and **TailwindCSS**,.
 
-Currently, two official plugins are available:
+This project demonstrates a scalable architecture for online stores — featuring authentication, a shopping cart, checkout, and product listings powered by a fake store API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tech Stack
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Category | Technology |
+|-----------|-------------|
+| **Frontend** | React + Vite |
+| **State Management** | Redux Toolkit |
+| **Styling** | TailwindCSS |
+| **Authentication** | Supabase (Email/Password + Google OAuth) |
+| **API** | FakeStore API (for product data) |
+| **Routing** | React Router |
+| **Icons** | Lucide React |
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧠 Core Features
+
+- 🧩 Modular, component-based UI (Header, Navbar, Product Cards, etc.)
+- 🛒 Fully functional **Redux-powered cart drawer**
+- 💰 Checkout page integrated with **Paystack** test payment flow
+- 🔐 **Supabase Authentication** (email/password + Google sign-in)
+- 📦 **FakeStore API** integration for live product data
+- 💬 Real-time form validation and feedback
+- 💅 Clean, responsive UI with Tailwind (optimized for desktop)
+- ⚙️ Environment variable configuration via `.env`
+
+---
+
+## 🧩 Project Structure
+```
+src/
+├── assets/              # Images & icons
+├── components/          # Reusable components (Header, Navbar, ProductCard, etc.)
+├── features/            # Redux slices (cartSlice, userSlice)
+├── pages/               # Page views (Home, Shop, Cart, Checkout, Login)
+├── services/            # Supabase + Paystack configs
+├── store.js             # Redux store configuration
+└── App.jsx              # Main app + route definitions
+```
+
+---
+
+
+
+## 🧑‍💻 Author
+**Adebayo-Tayo Testimony** — Frontend Developer  
+📧adebayotayotestimony@gmail.com  
+🐙 GitHub: [@Phoenixsai](https://github.com/Phoenixsai)
+
+---
+
+## 🪶 License
+This project is licensed under the [MIT License](LICENSE).
