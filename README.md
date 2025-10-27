@@ -1,5 +1,5 @@
-# 🛍️ React E-Commerce Website
-
+# 🛍️ React E-Commerce Website 
+https://e-comx.netlify.app/
 A modern, full-featured **e-commerce web application** built with **React (Vite)**, **Redux Toolkit**, **Supabase Authentication** and **TailwindCSS**,.
 
 This project demonstrates a scalable architecture for online stores — featuring authentication, a shopping cart, checkout, and product listings powered by a fake store API.
